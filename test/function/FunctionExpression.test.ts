@@ -9,6 +9,7 @@ function throws(fn) {
 }
 
 test("declare function -1", () => {
+	debugger
 	const a = evaluate(
 		`
 var ttx=1;
